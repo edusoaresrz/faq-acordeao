@@ -1,0 +1,16 @@
+@media screen and (min-width: 1024px) {
+    .imagem-fundo {
+        height: 400px;
+        background-image: url(../images/imagem-de-fundo-desktop.svg);
+    }
+
+    .box-faqs {
+        width: 40vw;
+        transition: width 0.3s linear;
+    }
+
+    div.pergunta:hover {
+        color: #AD28EB;
+        cursor: pointer;
+    }
+}
